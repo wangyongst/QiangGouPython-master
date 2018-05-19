@@ -1,0 +1,53 @@
+1526714415135	geckodriver	INFO	geckodriver 0.19.1
+1526714415141	geckodriver	INFO	Listening on 127.0.0.1:54483
+1526714418196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Ose1X4Bi6d5f"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1526714418906	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1526714421800	Marionette	INFO	Listening on port 54491
+1526714421816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526714421856	Marionette	DEBUG	Register listener.js for window 4294967297
+1526714422027	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526714422592	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526714422592	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526714423035	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml"
+1526714426331	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml"
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+1526714428126	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml"
+1526714428318	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml"
+1526714428320	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml"
+1526714428364	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1526714428829	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml"
+1526714428830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml"
+1526714429885	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://i.taobao.com/my_taobao.htm?nekot=d2FuZ3lvbmdzdA%3D%3D1526714427707"
+1526714431129	Marionette	DEBUG	Received DOM event "pageshow" for "https://i.taobao.com/my_taobao.htm?nekot=d2FuZ3lvbmdzdA%3D%3D1526714427707"
+1526714431180	Marionette	DEBUG	Received DOM event "beforeunload" for "https://i.taobao.com/my_taobao.htm?nekot=d2FuZ3lvbmdzdA%3D%3D1526714427707"
+1526714432116	Marionette	DEBUG	Received DOM event "pagehide" for "https://i.taobao.com/my_taobao.htm?nekot=d2FuZ3lvbmdzdA%3D%3D1526714427707"
+1526714432117	Marionette	DEBUG	Received DOM event "unload" for "https://i.taobao.com/my_taobao.htm?nekot=d2FuZ3lvbmdzdA%3D%3D1526714427707"
+1526714432277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1526714432382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.5.1afe21baQB0KJe&id=546408734932&skuId=3493732191297&areaId=620100&user_id=890482188&cat_id=2&is_b=1&rn=6ed71117205f1c9967cdc54e85d6cdf2"
+JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
+1526714433308	Marionette	DEBUG	Received DOM event "pageshow" for "https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.5.1afe21baQB0KJe&id=546408734932&skuId=3493732191297&areaId=620100&user_id=890482188&cat_id=2&is_b=1&rn=6ed71117205f1c9967cdc54e85d6cdf2"
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 80: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 27: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 15648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15648, Chrome_ChildThread] WARN[Child 4016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4016, Chrome_ChildThread] WARNING: pipe error*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 484, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1526714441075	geckodriver::marionette	ERROR	Failed to kill browser process
