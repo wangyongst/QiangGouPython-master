@@ -148,7 +148,7 @@ class TaobaoClimber:
             else:
                 self.__is_logined = True
 
-        # 1.进入待发货订单页面
+        # 1.进入抢购页面
         self.driver.get(self.__orders_path)
         while True:
             # 2.获取当前页面的订单信息
@@ -170,38 +170,3 @@ class TaobaoClimber:
             except exceptions.NoSuchElementException:
                 pass
         return result
-
-    def unshelve(self):
-        # 切换回窗口
-        self.driver.switch_to_window(self.driver.window_handles[0])
-
-        if self.__is_logined is False:
-            if self.__login() is False:
-                return False
-            else:
-                self.__is_logined = True
-
-        try:
-            # 1.进入正出售宝贝页面
-            self.driver.get(self.__auction_path)
-            # 2.点击下架
-            choose_checkbox = self.driver.find_element_by_xpath(
-                "//*[@id='J_DataTable']/table/tbody[1]/tr[1]/td/input[1]")
-            choose_checkbox.click()
-            unshelve_btn = self.driver.find_element_by_xpath(
-                "//*[@id='J_DataTable']/div[2]/table/thead/tr[2]/td/div/button[2]")
-            unshelve_btn.click()
-            return True
-        except:
-            return False
-
-if __name__ == '__main__':
-    # 初始化
-    TaobaoClimber.driver = webdriver.Firefox()  # 应将浏览器驱动放于python根目录下，且python已配置path环境变量
-    TaobaoClimber.action = ActionChains(TaobaoClimber.driver)
-    TaobaoClimber.driver.maximize_window()  # 浏览器最大化
-    climber = TaobaoClimber(u"18119445588", "wang.1986")
-    while True:
-        # 循环爬取订单
-        orders = climber.climb()
-        time.sleep(30)
