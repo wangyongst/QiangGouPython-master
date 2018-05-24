@@ -21,6 +21,7 @@ class TaobaoClimber:
         self.__username = username
         self.__password = password
 
+   # driver = webdriver.Firefox()
     driver = None
     action = None
 
@@ -32,7 +33,7 @@ class TaobaoClimber:
     # 登录密码
     __password = ""
     # 登陆URL
-    __login_path = "https://login.taobao.com/member/login.jhtml"
+    __login_path = "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
     # 抢购商口URL
     __orders_path = "https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.5.1afe21baQB0KJe&id=546408734932&skuId=3493732191297&areaId=620100&user_id=890482188&cat_id=2&is_b=1&rn=6ed71117205f1c9967cdc54e85d6cdf2"
     # requests会话
@@ -119,28 +120,11 @@ class TaobaoClimber:
 
         return True
 
-    def __get_orders_page(self):
-        # 1.bs4将资源转html
-        html = BeautifulSoup(self.driver.page_source, "html5lib")
-        # 2.取得所有的订单div
-        order_div_list = html.find_all("div", {"class": "item-mod__trade-order___2LnGB trade-order-main"})
-        # 3.遍历每个订单div，获取数据
-        data_array = []
-        for index, order_div in enumerate(order_div_list):
-            order_id = order_div.find("input", attrs={"name": "orderid"}).attrs["value"]
-            order_date = order_div.find("span",
-                                        attrs={"data-reactid": re.compile(r"\.0\.5\.3:.+\.0\.1\.0\.0\.0\.6")}).text
-            order_buyer = order_div.find("a", attrs={"class": "buyer-mod__name___S9vit"}).text
-            # 4.根据订单id组合url，请求订单对应留言
-            order_message = json.loads(self.__session.get(self.__message_path + order_id).text)['tip']
-            data_array.append((order_id, order_date, order_buyer, order_message))
-        return data_array
-
     def climb(self):
         # 切换回窗口
         self.driver.switch_to_window(self.driver.window_handles[0])
 
-        result = []
+        result = False
 
         if self.__is_logined is False:
             if self.__login() is False:
@@ -151,22 +135,17 @@ class TaobaoClimber:
         # 1.进入抢购页面
         self.driver.get(self.__orders_path)
         while True:
-            # 2.获取当前页面的订单信息
-            time.sleep(2)  # 两秒等待页面加载
-            _orders = self.__get_orders_page()
-            result.extend(_orders)
-            try:
-                # 3.获取下一页按钮
-                next_page_li = self.driver.find_element_by_class_name("pagination-next")
-                # 4.判断按钮是否可点击，否则退出循环
-                next_page_li.get_attribute("class").index("pagination-disabled")
-                # print_msg("到达最后一页")
-                break
-            except ValueError:
-                # print_msg("跳转到下一页")
-                print(next_page_li.find_element_by_tag_name("a").text)
-                next_page_li.click()
-                time.sleep(1)
-            except exceptions.NoSuchElementException:
-                pass
+            # 2.获取当前页面的信息
+            xiemas = None
+            while not xiemas:
+                xiemas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
+            for xiema in xiemas:
+                if(xiema.text == "40"):
+                    xiema.click();
+                    break;
+            buy = None;
+            while not buy:
+                buy = self.driver.find_element_by_id("J_LinkBuy");
+            buy.click();
+            return result
         return result

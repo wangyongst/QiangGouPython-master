@@ -13,13 +13,12 @@ if __name__ == '__main__':
     # 2.实例化driver
     driver = webdriver.Firefox()  # 应将浏览器驱动放于python根目录下，且python已配置path环境变量
     action = ActionChains(driver)
-    #driver.maximize_window()  # 浏览器最大化
+    driver.maximize_window()  # 浏览器最大化
     driver.set_page_load_timeout(delay_wait)  # 设定页面加载限制时间
 
     TaobaoClimber.driver = driver
     TaobaoClimber.action =  action
-    # 2.1上架宝贝
     is_running = True
     while is_running:
-        # 2.2爬取
-        orders = climber.climb()
+        # 2.2抢购
+        is_running = climber.climb()
