@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 账号参数
-taobao_username = u"18119445588"
-taobao_password = "wang.1986"
+#多个账号,账号密码配对，并以逗号隔开，外加[]
+username_password=[["18119445588","wang.1986"],["test","test"]]
 
 # 爬虫每次检查是否可以抢购隔/秒
 check_order_period = 30

@@ -117,7 +117,6 @@ class TaobaoClimber:
             self.driver.find_element_by_id("layout-center")
         except exceptions.NoSuchElementException:
             time.sleep(9)
-
         return True
 
     def climb(self):
