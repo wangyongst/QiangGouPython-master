@@ -35,7 +35,7 @@ class TaobaoClimber:
     # 登陆URL
     __login_path = "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
     # 抢购商口URL
-    __orders_path = "https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.5.1afe21baQB0KJe&id=546408734932&skuId=3493732191297&areaId=620100&user_id=890482188&cat_id=2&is_b=1&rn=6ed71117205f1c9967cdc54e85d6cdf2"
+    __orders_path = "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
     # requests会话
     __session = None
 
@@ -135,13 +135,20 @@ class TaobaoClimber:
         self.driver.get(self.__orders_path)
         while True:
             # 2.获取当前页面的信息
-            xiemas = None
-            while not xiemas:
-                xiemas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
-            for xiema in xiemas:
-                if(xiema.text == "40"):
-                    xiema.click();
+            chimas = None
+            while not chimas:
+                chimas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
+            for chima in chimas:
+                if(chima.text == "42/XL"):
+                    chima.click();
                     break;
+            yanses = None;
+            while not yanses:
+                yanses = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp tb-img     ']/li")
+                for yanse in yanses:
+                    if(yanse.get_attribute("title") == "深蓝"):
+                        yanse.click();
+                        break;
             buy = None;
             while not buy:
                 buy = self.driver.find_element_by_id("J_LinkBuy");
