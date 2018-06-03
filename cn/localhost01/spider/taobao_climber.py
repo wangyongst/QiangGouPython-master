@@ -153,5 +153,7 @@ class TaobaoClimber:
             while not buy:
                 buy = self.driver.find_element_by_id("J_LinkBuy");
             buy.click();
+            while "buy" in self.driver.current_url:
+                submit = self.driver.find_element_by_id("submitOrder_1")
             return result
         return result
