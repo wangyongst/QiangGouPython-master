@@ -1,134 +1,99 @@
-1527781945150	geckodriver	INFO	geckodriver 0.19.1
-1527781945156	geckodriver	INFO	Listening on 127.0.0.1:54640
-1527781948217	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.hEEzzW2caUe7"
+1528123562202	geckodriver	INFO	geckodriver 0.19.1
+1528123562207	geckodriver	INFO	Listening on 127.0.0.1:51766
+1528123565264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.WQPTKAmoHLbY"
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-1527781948980	Marionette	INFO	Enabled via --marionette
+1528123565807	Marionette	INFO	Enabled via --marionette
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 32, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12976, Chrome_ChildThread] WARNING: pipeUnable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-1527781953246	Marionette	INFO	Listening on port 54657
-1527781953448	Marionette	WARN	TLS certificate errors will be ignored for this session
-1527781953489	Marionette	DEBUG	Register listener.j1527781953619	Marionette	WARN	TLS certificate errors will be ignored for this session
-1527781953665	Marionet1527781954151	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1527781954151	Marionette	DEBUG	Received DOM event "unload1527781954544	Marione1527781960875	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%31527781963130	Marionette	D1527781965835	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fw1527781966028	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-JavaScript 1527781967035	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F1527781967270	Marionet1527781967429	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2FwJavaScript error: https://qrlogin.taobao.com/qrcodelogin/qrcodeLoginCheck.do?lgToken=74859a6cbc6d9cdc3b53c242fac0b12b&defaulturl=https%3A%2F%2Fwww.tmall.com%2F&_ksTS=1527781967608_102&callback=jsonp103, line 1: ReferenceError: jsonp103 is not defined
-1527781970546	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1527781970551	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1527781970593	Marion1527781970829	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taoba1527781971059	Marionette	DEBUG	Received DOM event "pageshow" for "http1527781979867	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1527781983698	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1527781983699	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2FwwwJavaScript warning: https://a.alipayobjects.com/jquery/jquery/1.9.1/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-[Parent 32, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 32, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 15076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 15076, Chrome_ChildThread] WARNING: pipe error: 1[Child 12748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/i[GPU 3680, Chrome_Child
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chrJavaScript error: https://g.alicdn.com/kissy/k/1.4.4/??io-min.js,cookie-min.js, line 10: NS_ERROR_NOT_INITIALIZED: 
-JavaScript error: https://g.alicdn.com/kissy/k/1.4.4/??io-min.js,cookie-min.js, line 10: NS_ERROR_NOT_INITIALIZED: 
-[GPU 15236, Chrome_ChildThread
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-cated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScri[Parent 11960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 14664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 14664, Chrome_ChildThrea[Child 12564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12564, Chrome_ChildThread] WARNING: pi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-[GPU 8848, Chrome_ChildT
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-nnel closing: too late to send/recv, messages will be lost
-
-[Child 9712, Chrome_ChildThread] WARNING: pipe error: 109: fi
-###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-le z:/build/build/src/ipc/chr
-###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-omium/src/chrome/common/ipc_channel_win.cc, line 346
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-[Child 9712, Chrome_ChildThread] WARNING: pipe error: 109: fil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-[GPU 8888, Chrome
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-e 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-[Child 3116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 3116, Chrome_ChildThread] WARNINGIPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-[Child 13076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13076, Chrome_ChildThread] WARNING: [GPU 10176, Chrome_Chi
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-iler-min.js,mui/mallbar/3.2.36/conf.js,mui/mallbar/3.2.36/util.js,mui/minilogin/3.1.6/index.js,mui/overlay/3.0.10/dialog.js,mui/mallbar/3.2.36/model.js,mui/mallbar/3.2.36/store.js,mui/storage/3.0.5/index.js,mui/storage/3.0.5/conf.js,mui/storage/3.0.5/util.js,mui/storage/3.0.5/xd.js,mui/storage/3.0.5/name.js,mui/mallbar/3.2.36/mallbar-item.js,mui/mallbar/3.2.36/mallbar-guide.js,mui/mallbar/3.2.36/plugin-prof.js,mui/mallbar/3.2.36/plugin-asset.js,mui/mallbar/3.2.36/plugin-brand.js,mui/mallbar/3.2.36/plugin-live.js,mui/mallbar/3.2.36/plugin-foot.js,mui/mallbar/3.2.36/plugin-top.js,mui/mallbar/3.2.36/plugin-ue.js,mui/mallbar/3.2.36/plugin-qrcode.js,mui/mallbar/3.2.36/plugin-favor.js,mui/mallbar/3.2.36/plugin-charge.js,mui/mallbar/3.2.36/plugin-cart.js,mui/minicart/3.0.37/minicart.js,mui/minicart/3.0.37/model.js,mui/minicart/3.0.37/util.js,mui/mallbar/3.2.36/plugin-nav.js,mui/mallbar/3.2.36/plugin-worth.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/??mui/mallbar/3.2.36/index.js,kissy/k/1.4.2/swf-min.js,kissy/k/1.4.2/xtemplate-min.js,kissy/k/1.4.2/xtemplate/compiler-min.js,mui/mallbar/3.2.36/conf.js,mui/mallbar/3.2.36/util.js,mui/minilogin/3.1.6/index.js,mui/overlay/3.0.10/dialog.js,mui/mallbar/3.2.36/model.js,mui/mallbar/3.2.36/store.js,mui/storage/3.0.5/index.js,mui/storage/3.0.5/conf.js,mui/storage/3.0.5/util.js,mui/storage/3.0.5/xd.js,mui/storage/3.0.5/name.js,mui/mallbar/3.2.36/mallbar-item.js,mui/mallbar/3.2.36/mallbar-guide.js,mui/mallbar/3.2.36/plugin-prof.js,mui/mallbar/3.2.36/plugin-asset.js,mui/mallbar/3.2.36/plugin-brand.js,mui/mallbar/3.2.36/plugin-live.js,mui/mallbar/3.2.36/plugin-foot.js,mui/mallbar/3.2.36/plugin-top.js,mui/mallbar/3.2.36/plugin-ue.js,mui/mallbar/3.2.36/plugin-qrcode.js,mui/mallbar/3.2.36/plugin-favor.js,mui/mallbar/3.2.36/plugin-charge.js,mui/mallbar/3.2.36/plugin-cart.js,mui/minicart/3.0.37/minicart.js,mui/minicart/3.0.37/model.js,mui/minicart/3.0.37/util.js,mui/mallbar/3.2.36/plugin-nav.js,mui/mallbar/3.2.36/plugin-worth.js?t=1_2013072520131122.js, line 21: Using //@ to indicate sourceURL praJav[Child 6404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 6404, Chrome_ChildThr[Child 12376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
- 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-e z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13448, Chrome_ChildThread] WA[Child 15296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 15296, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
-[Child 15296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[GPU 4588, Chrome
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-ntent-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Parent 12208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9204, Chrome_ChildThreaUnable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1528123568868	Marionette	INFO	Listening on port 51775
+1528123568955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528123568997	Marionette	DEBUG	Register listener.js for window 4294967297
+1528123569063	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528123569841	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528123569841	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1528123571544	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1528123572629	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+1528123573743	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1528123574024	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1528123574026	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+[Parent 12208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528123574040	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1528123574534	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1528123574535	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1528123575842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.tmall.com/"
+1528123576551	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.tmall.com/"
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/compiler-min.js,overlay-min.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Parent 12208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528123585585	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.tmall.com/"
+1528123585776	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.tmall.com/"
+1528123585780	Marionette	DEBUG	Received DOM event "unload" for "https://www.tmall.com/"
+1528123585981	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1528123585981	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1528123585982	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1528123586045	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
 JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
-[Parent 240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
-JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
-[Parent 240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
+1528123586866	Marionette	DEBUG	Received DOM event "pageshow" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
+1528123587270	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1528123587676	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528123587930	Marionette	DEBUG	Received DOM event "beforeunload" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4&skuId=3784904527382"
+1528123588089	Marionette	DEBUG	Received DOM event "pagehide" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4&skuId=3784904527382"
+1528123588092	Marionette	DEBUG	Received DOM event "unload" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4&skuId=3784904527382"
+1528123588223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967316"
+1528123588223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967318"
+1528123588223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
+1528123588590	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://buy.tmall.com/order/confirm_order.htm?x-itemid=566980445680&x-uid=387094956"
+1528123589237	Marionette	DEBUG	Received DOM event "pageshow" for "https://buy.tmall.com/order/confirm_order.htm?x-itemid=566980445680&x-uid=387094956"
+1528123589418	Marionette	DEBUG	Received DOM event "beforeunload" for "https://buy.tmall.com/order/confirm_order.htm?x-itemid=566980445680&x-uid=387094956"
+1528123589754	Marionette	DEBUG	Received DOM event "pagehide" for "https://buy.tmall.com/order/confirm_order.htm?x-itemid=566980445680&x-uid=387094956"
+1528123589756	Marionette	DEBUG	Received DOM event "unload" for "https://buy.tmall.com/order/confirm_order.htm?x-itemid=566980445680&x-uid=387094956"
+1528123589764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://buy.tmall.com/auction/confirm_order.htm?x-itemid=566980445680&x-uid=387094956&spm=a220l.1.a22016.d011001001001.undefined&submitref=0a67f6&sparam1=eyJsaXN0Ijp7IjI3MDUzOTgiOnsiYnV5YW1vdW50IjoxLCJkaXNjb3VudFRvdGFsRmVlIjozMDgwMDAsInNlbGxlcklkIjoyMTYyMTM1MDAxLCJ0b3RhbEZlZSI6NDg5MDAwfX0sImxvZ2lzUmVjdkFkZHIiOiLlkLTlrrblm63opb%2FooZcxODXlj7fmsLTkupHpmIEiLCJsb2dpc1JlY3ZNb2JsIjoiMTgxMTk0NDU1ODgiLCJvcmRlcmZyb213aGVyZSI6InRtYWxsX3BjIiwidW1pZCI6IkNWMTR6NWIxNTUwYjU2ODc1MzQ2OTAwMDdkMzA5YTRlZiJ9&sparam2=eyJsaXN0Ijp7IjI3MDUzOTgiOnsiYnV5UXVhbnRp[Parent 3840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2192, Chro[me_ChildThread] WARNING: pipeChild 13104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8196, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+DM5NzQ1LDQ2ODQ5LDQ4NzA2LDQ4ODk4LDUxMzI5LDUxNTg1LDUxODQxLDUxOTY5LDU5MDEwLDYwNDE4LDYyMDgyLDYzMDQyLDY0MTI5LDY2MjQxLDY2NjI1LDY2Njg5LDcwNDAxLDcyMzg2LDczMDg5LDczNjAxLDc0MzY5LDc0NTYxLDc0Njg5LDc0NzUzLDgxNzkzLDgyMzA2LDgyNjI1LDg0NjczLDg0ODAxLDg0ODY1LDg1Njk3LDg1ODI1LDg2MDgxLDg5NjY1LDkxMjAxLDk1MTA1LDk1NjE3LDk1NzQ1LDk1ODA5LDk1ODczLDk2NTEzLDEwMTc2MiwxMDc2NTAsMTA3ODQyLDExMjM4NiwxMzk3NzgsMTY2NDAyLDE3NTQ5MCwxNzU3NDYsMTk0MzA2LDE5NDYyNiwyMDAzMjIsMjAyMDUwLDIxMjU0NiwyMTI2MTAsMjE1NDI2LDI0MzkwNiwyNDg4OTgsMjQ4OTYyLDI0OTA5MCwyNDk4NTgsMjQ5OTIyLDI0OTk4NiwyNTM1NzAsMjU1NjgyLDI1OTg0MiwyNjc1ODYsMjY3OTcwLDI3MDIxMCwyNzI4OTgsMjczMjE4LDI3MzI4MiwyNzM0NzQsMjc3MTg2IiwidGl0bGUiOiIiLCJ2aXJ0dWFsIjpmYWxzZX19fQ%3D%3D"
+1528123589777	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967325"
+1528123589777	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967327"
+1528123589965	Marionette	DEBUG	Received DOM event "pageshow" for "https://buy.tmall.com/auction/confirm_order.htm?x-itemid=566980445680&x-uid=387094956&spm=a220l.1.a22016.d011001001001.undefined&submitref=0a67f6&sparam1=eyJsaXN0Ijp7IjI3MDUzOTgiOnsiYnV5YW1vdW50IjoxLCJkaXNjb3VudFRvdGFsRmVlIjozMDgwMDAsInNlbGxlcklkIjoyMTYyMTM1MDAxLCJ0b3RhbEZlZSI6NDg5MDAwfX0sImxvZ2lzUmVjdkFkZHIiOiLlkLTlrrblm63opb%2FooZcxODXlj7fmsLTkupHpmIEiLCJsb2dpc1JlY3ZNb2JsIjoiMTgxMTk0NDU1ODgiLCJvcmRlcmZyb213aGVyZSI6InRtYWxsX3BjIiwidW1pZCI6IkNWMTR6NWIxNTUwYjU2ODc1MzQ2OTAwMDdkMzA5YTRlZiJ9&sparam2=eyJsaXN0Ijp7IjI3MDUzOTgiOnsiYnV5UXVhbnRpdHkiOjAsImNhdGlkIjowLCJpdGVtSWQiOjEwMDAsIm9sZFN0YXJ0IjoxNTIyNzI4NDkyMDAwLCJvcHRpb25zIjo1NzA0MjUzNDUsIm9yZGVyQ29zdCI6NDI4LCJyZXNydlByaWNlIjo0ODkwMDAsInNrdUlkIjowLCJ0YWdzIjoiMzg1LDU4Nyw5MDcsMTE1NCwxMTYzLDE0NzgsMTQ4MywxNjc1LDE4MDMsMjA0OSwyMDU5LDI0NDMsMjUwNywyNjM1LDMwMTksMzg1MSwzOTE1LDM5NzQsNDEwNyw0MTY2LDQxNzEsNDM2Myw0NDkxLDQ1NTAsNDU1NSw0NjE0LDQ2NzgsNDgxMSw1MDYyLDU4MzUsNjQxMSw2NjAzLDczNzEsNzk0Nyw5NDA5LDExMDgzLDExMjY2LDExMzM5LDExNTMxLDExNTk1LDEyNDkxLDEzNzA3LDEzNzcxLDE1Mjk3LDE1NTU0LDE1NTYzLDE2Mzk1LDE3NzM5LDE3ODAzLDIxNjk3LDIxOTUzLDI1MjgyLDI3NTIxLDI4MzUzLDI4NDgyLDI4ODAyLDI5Njk3LDI5ODg5LDMwMjczLDMwMzM3LDMwNDAxLDMwNTkzLDMwODQ5LDMwOTc3LDMzMjgxLDMzMzQ1LDM0MzA1LDM1MTM3LDM1NDU4LDM1NzEzLDM2MTYxLDM2NDE3LDM3NTY5LDM3NjMzLDM5MjMzLDM5NDkwLDM5NzQ1LDQ2ODQ5LDQ4NzA2LDQ4ODk4LDUxMzI5LDUxNTg1LDUxODQxLDUxOTY5LDU5MDEwLDYwNDE4LDYyMDgyLDYzMDQyLDY0MTI5LDY2MjQxLDY2NjI1LDY2Njg5LDcwNDAxLDcyMzg2LDczMDg5LDczNjAxLDc0MzY5LDc0NTYxLDc0Njg5LDc0NzUzLDgxNzkzLDgyMzA2LDgyNjI1LDg0NjczLDg0ODAxLDg0ODY1LDg1Njk3LDg1ODI1LDg2MDgxLDg5NjY1LDkxMjAxLDk1MTA1LDk1NjE3LDk1NzQ1LDk1ODA5LDk1ODczLDk2NTEzLDEwMTc2MiwxMDc2NTAsMTA3ODQyLDExMjM4NiwxMzk3NzgsMTY2NDAyLDE3NTQ5MCwxNzU3NDYsMTk0MzA2LDE5NDYyNiwyMDAzMjIsMjAyMDUwLDIxMjU0NiwyMTI2MTAsMjE1NDI2LDI0MzkwNiwyNDg4OTgsMjQ4OTYyLDI0OTA5MCwyNDk4NTgsMjQ5OTIyLDI0OTk4NiwyNTM1NzAsMjU1NjgyLDI1OTg0MiwyNjc1ODYsMjY3OTcwLDI3MDIxMCwyNzI4OTgsMjczMjE4LDI3MzI4MiwyNzM0NzQsMjc3MTg2IiwidGl0bGUiOiIiLCJ2aXJ0dWFsIjpmYWxzZX19fQ%3D%3D"
+1528123591144	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cashiergtj.alipay.com/login/trust_login.do?sign_account_no=20883022408414240156&trade_no=2018060421001001420547235231&sign_signature=i_y7n12_s898nn8%2Bl_c%2B6%2B_gl_y_x%2Fpn9_vqnsgmd_e17_yz_d_j5_y_xbcn_qyc_wg_r_a%3D%3D&sign_date=1528123590&already_check=0&sign_from=3000&fromcashier=true&goto=https://cashiergtj.alipay.com/preprocess/trade/tradePreprocessGw.htm"
+1528123591697	Marionette	DEBUG	Received DOM event "pageshow" for "https://cashiergtj.alipay.com/login/trust_login.do?sign_account_no=20883022408414240156&trade_no=2018060421001001420547235231&sign_signature=i_y7n12_s898nn8%2Bl_c%2B6%2B_gl_y_x%2Fpn9_vqnsgmd_e17_yz_d_j5_y_xbcn_qyc_wg_r_a%3D%3D&sign_date=1528123590&already_check=0&sign_from=3000&fromcashier=true&goto=https://cashiergtj.alipay.com/preprocess/trade/tradePreprocessGw.htm"
+[Child 1868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1868, Chrome_ChildThread] WARNING: pipe err
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 11180, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+RNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6056, Chrome_ChildThread] [Parent 12988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2184, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 2184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2184, Chrome_ChildThread] *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 11312, Chrome_ChildT
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead

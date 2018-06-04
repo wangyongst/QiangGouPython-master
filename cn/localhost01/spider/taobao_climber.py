@@ -9,6 +9,7 @@ import requests
 import json
 import sys
 from bs4 import BeautifulSoup
+from cn.config import *
 
 # 对于py2，将ascii改为utf8
 reload(sys)
@@ -32,17 +33,13 @@ class TaobaoClimber:
     __username = ""
     # 登录密码
     __password = ""
-    # 登陆URL
-    __login_path = "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-    # 抢购商口URL
-    __orders_path = "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
     # requests会话
     __session = None
 
     def __login(self):
         # 1.登陆
         try:
-            self.driver.get(self.__login_path)
+            self.driver.get(login_path)
         except exceptions.TimeoutException:  # 当页面加载时间超过设定时间，JS来停止加载
             self.driver.execute_script('window.stop()')
 
@@ -132,21 +129,21 @@ class TaobaoClimber:
                 self.__is_logined = True
 
         # 1.进入抢购页面
-        self.driver.get(self.__orders_path)
+        self.driver.get(orders_path)
         while True:
             # 2.获取当前页面的信息
             chimas = None
             while not chimas:
                 chimas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
             for chima in chimas:
-                if(chima.text == "42/XL"):
+                if(chima.text == chi_ma):
                     chima.click();
                     break;
             yanses = None;
             while not yanses:
                 yanses = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp tb-img     ']/li")
                 for yanse in yanses:
-                    if(yanse.get_attribute("title") == "深蓝"):
+                    if(yanse.get_attribute("title") == yan_se):
                         yanse.click();
                         break;
             buy = None;
@@ -154,6 +151,8 @@ class TaobaoClimber:
                 buy = self.driver.find_element_by_id("J_LinkBuy");
             buy.click();
             while "buy" in self.driver.current_url:
-                submit = self.driver.find_element_by_id("submitOrder_1")
-            return result
+                submit = None
+                while not submit:
+                    submit = self.driver.find_element_by_id("submitOrder_1").find_element_by_tag_name("a")
+                submit.click();
         return result

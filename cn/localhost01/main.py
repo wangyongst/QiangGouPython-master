@@ -3,6 +3,7 @@ import time
 from selenium import webdriver
 import threading
 from selenium.webdriver import ActionChains
+from cn.config import *
 
 from spider.taobao_climber import TaobaoClimber
 from __init__ import *
@@ -25,10 +26,8 @@ def clim(username,password):
         # 2.2抢购
         is_running = climber.climb()
 
-
 if __name__ == '__main__':
      for i in username_password:
-         #clim(i[0],i[1])
          threading.Thread(target=clim,args=(i[0],i[1])).start()
 
 
