@@ -2,11 +2,10 @@
 from selenium.common import exceptions
 from selenium import webdriver
 from selenium.webdriver import ActionChains
+from cn.config import *
 import time
 import random
-import re
 import requests
-import json
 import sys
 from bs4 import BeautifulSoup
 
@@ -32,17 +31,13 @@ class TaobaoClimber:
     __username = ""
     # 登录密码
     __password = ""
-    # 登陆URL
-    __login_path = "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-    # 抢购商口URL
-    __orders_path = "https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.5.1afe21baQB0KJe&id=546408734932&skuId=3493732191297&areaId=620100&user_id=890482188&cat_id=2&is_b=1&rn=6ed71117205f1c9967cdc54e85d6cdf2"
-    # requests会话
+   # requests会话
     __session = None
 
     def __login(self):
         # 1.登陆
         try:
-            self.driver.get(self.__login_path)
+            self.driver.get(login_path)
         except exceptions.TimeoutException:  # 当页面加载时间超过设定时间，JS来停止加载
             self.driver.execute_script('window.stop()')
 
@@ -132,7 +127,7 @@ class TaobaoClimber:
                 self.__is_logined = True
 
         # 1.进入抢购页面
-        self.driver.get(self.__orders_path)
+        self.driver.get(orders_path)
         while True:
             # 2.获取当前页面的信息
             xiemas = None

@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 import threading
 from selenium.webdriver import ActionChains
-
+from cn.config import *
 from spider.taobao_climber import TaobaoClimber
 from __init__ import *
 
