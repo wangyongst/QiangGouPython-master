@@ -115,23 +115,23 @@ class TaobaoClimber:
         except exceptions.NoSuchElementException:
             time.sleep(9)
         return True
-
     def climb(self):
         # 切换回窗口
         self.driver.switch_to_window(self.driver.window_handles[0])
-
         result = False
-
         if self.__is_logined is False:
             if self.__login() is False:
                 return result
             else:
                 self.__is_logined = True
-
         # 1.进入抢购页面
         self.driver.get(orders_path)
         while True:
             # 2.获取当前页面的信息
+            buy = None;
+            while not buy:
+                buy = self.driver.find_element_by_id("J_LinkBuy");
+            buy.click();
             chimas = None
             while not chimas:
                 chimas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
@@ -151,6 +151,7 @@ class TaobaoClimber:
                 buy = self.driver.find_element_by_id("J_LinkBuy");
             buy.click();
             while "buy" in self.driver.current_url:
+                time.sleep(5)
                 submit = None
                 while not submit:
                     submit = self.driver.find_element_by_id("submitOrder_1").find_element_by_tag_name("a")
