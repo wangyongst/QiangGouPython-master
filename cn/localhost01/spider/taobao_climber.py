@@ -138,22 +138,19 @@ class TaobaoClimber:
             for chima in chimas:
                 if(chima.text == chi_ma):
                     chima.click();
-                    break;
             yanses = None;
             while not yanses:
                 yanses = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp tb-img     ']/li")
                 for yanse in yanses:
                     if(yanse.get_attribute("title") == yan_se):
                         yanse.click();
-                        break;
-            buy = None;
-            while not buy:
-                buy = self.driver.find_element_by_id("J_LinkBuy");
             buy.click();
-            while "buy" in self.driver.current_url:
-                time.sleep(delay_wait)
-                submit = None
-                while not submit:
-                    submit = self.driver.find_element_by_id("submitOrder_1").find_element_by_tag_name("a")
-                submit.click();
+            submit = None
+            while not submit:
+                try:
+                    submit = self.driver.find_element_by_id("submitOrder_1")
+                except exceptions.NoSuchElementException:
+                    submit = None;
+            submit.find_element_by_tag_name("a").click();
+            return result
         return result
