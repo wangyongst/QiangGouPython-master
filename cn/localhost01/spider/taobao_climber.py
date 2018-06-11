@@ -151,7 +151,7 @@ class TaobaoClimber:
                 buy = self.driver.find_element_by_id("J_LinkBuy");
             buy.click();
             while "buy" in self.driver.current_url:
-                time.sleep(5)
+                time.sleep(delay_wait)
                 submit = None
                 while not submit:
                     submit = self.driver.find_element_by_id("submitOrder_1").find_element_by_tag_name("a")
