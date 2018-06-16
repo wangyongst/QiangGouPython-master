@@ -86,9 +86,10 @@ class TaobaoClimber:
             retry = 0
             while retry < 5:
                 retry += 1
+                self.action.move_by_offset(random.randint(10, 60), random.randint(10, 90)).perform()
                 slide_span = self.driver.find_element_by_id("nc_1_n1z")  # 取得滑块span
                 self.action.click_and_hold(slide_span)  # 鼠标左键按住span
-                self.action.move_by_offset(258, 0)  # 向右拖动258像素完成验证
+                self.action.move_by_offset(300, 0)  # 向右拖动258像素完成验证
                 self.action.perform()
                 time.sleep(1)
                 self.action.reset_actions()  # 页面进行了刷新，需要清除action之前存储的elements
