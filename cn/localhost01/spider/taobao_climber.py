@@ -6,7 +6,7 @@ import time
 import random
 import re
 import requests
-import json
+from random import choice
 import sys
 from bs4 import BeautifulSoup
 from cn.config import *
@@ -116,6 +116,7 @@ class TaobaoClimber:
         except exceptions.NoSuchElementException:
             time.sleep(9)
         return True
+
     def climb(self):
         # 切换回窗口
         self.driver.switch_to_window(self.driver.window_handles[0])
@@ -134,16 +135,18 @@ class TaobaoClimber:
                 buy = self.driver.find_element_by_id("J_LinkBuy");
             buy.click();
             chimas = None
+            my_chi_ma = choice(chi_ma);
             while not chimas:
                 chimas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
             for chima in chimas:
-                if(chima.text == chi_ma):
+                if(chima.text == my_chi_ma):
                     chima.click();
             yanses = None;
+            my_yan_se = choice(yan_se)
             while not yanses:
                 yanses = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp tb-img     ']/li")
                 for yanse in yanses:
-                    if(yanse.get_attribute("title") == yan_se):
+                    if(yanse.get_attribute("title") == my_yan_se):
                         yanse.click();
             buy.click();
             submit = None
