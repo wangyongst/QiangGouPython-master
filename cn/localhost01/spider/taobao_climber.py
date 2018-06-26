@@ -94,9 +94,9 @@ class TaobaoClimber:
                 time.sleep(1)
                 self.action.reset_actions()  # 页面进行了刷新，需要清除action之前存储的elements
                 try:
-                    slide_refresh = self.driver.find_element_by_xpath(
-                        "//div[@id='nocaptcha']/div/span/a")  # 页面没有滑块，而是“点击刷新再来一次”
-                    slide_refresh.click()
+                    slide_refresh = self.driver.find_element_by_xpath("//div[@id='nocaptcha']/div/span/a")  # 页面没有滑块，而是“点击刷新再来一次”
+                    while slide_refresh:
+                        slide_refresh = self.driver.find_element_by_xpath("//div[@id='nocaptcha']/div/span/a")  # 页面没有滑块，而是“点击刷新再来一次”
                 except exceptions.NoSuchElementException:  # 滑动成功
                     break
 
