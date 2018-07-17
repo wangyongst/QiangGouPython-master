@@ -83,23 +83,7 @@ class TaobaoClimber:
         # 4.取得滑块所在div，判断是否display 一般首次登陆不需要滑块验证
         slide_div = self.driver.find_element_by_id("nocaptcha")
         if slide_div.is_displayed() is True:
-            retry = 0
-            while retry < 5:
-                retry += 1
-                self.action.move_by_offset(random.randint(10, 60), random.randint(10, 90)).perform()
-                slide_span = self.driver.find_element_by_id("nc_1_n1z")  # 取得滑块span
-                self.action.click_and_hold(slide_span)  # 鼠标左键按住span
-                self.action.move_by_offset(300, 0)  # 向右拖动258像素完成验证
-                self.action.perform()
-                time.sleep(1)
-                self.action.reset_actions()  # 页面进行了刷新，需要清除action之前存储的elements
-                try:
-                    slide_refresh = self.driver.find_element_by_xpath("//div[@id='nocaptcha']/div/span/a")  # 页面没有滑块，而是“点击刷新再来一次”
-                    while slide_refresh:
-                        slide_refresh = self.driver.find_element_by_xpath("//div[@id='nocaptcha']/div/span/a")  # 页面没有滑块，而是“点击刷新再来一次”
-                except exceptions.NoSuchElementException:  # 滑动成功
-                    break
-
+            time.sleep(10);
         # 5.获取登陆按钮，并点击登录
         submit_btn = self.driver.find_element_by_id("J_SubmitStatic")
         submit_btn.click()
