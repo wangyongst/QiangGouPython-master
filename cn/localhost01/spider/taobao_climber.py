@@ -22,7 +22,7 @@ class TaobaoClimber:
         self.__username = username
         self.__password = password
 
-   # driver = webdriver.Firefox()
+    # driver = webdriver.Firefox()
     driver = None
     action = None
 
@@ -123,14 +123,14 @@ class TaobaoClimber:
             while not chimas:
                 chimas = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp     ']/li")
             for chima in chimas:
-                if(chima.text == my_chi_ma):
+                if (chima.text == my_chi_ma and chima.get_attribute("class") != "tb-selected"):
                     chima.click();
             yanses = None;
             my_yan_se = choice(yan_se)
             while not yanses:
                 yanses = self.driver.find_elements_by_xpath("//ul[@class='tm-clear J_TSaleProp tb-img     ']/li")
                 for yanse in yanses:
-                    if(yanse.get_attribute("title") == my_yan_se):
+                    if (yanse.get_attribute("title") == my_yan_se and yanse.get_attribute("class") != "tb-selected"):
                         yanse.click();
             buy.click();
             submit = None
