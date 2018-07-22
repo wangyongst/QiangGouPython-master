@@ -1,31 +1,35 @@
-1531833412415	geckodriver	INFO	geckodriver 0.19.1
-1531833412421	geckodriver	INFO	Listening on 127.0.0.1:55664
-1531833415480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.5xTbDufgiMm9"
+1532265560313	geckodriver	INFO	geckodriver 0.19.1
+1532265560319	geckodriver	INFO	Listening on 127.0.0.1:56394
+1532265563380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.dB4njKz1wX0E"
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-1531833416674	Marionette	INFO	Enabled via --marionette
+1532265564543	Marionette	INFO	Enabled via --marionette
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-Unable Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.v15318331531833421477	Marionette	INFO	Listening on port 15318331531833421964	Marionette	WARN	TLS certificate errors will be ignored for this session
-1531833422007	Marionette	DEBUG	Register listener.js for window 4294967297
-1531833422083	Marionette	DEBUG	Received DOM event "beforeunload" for "about:b15318331531833422453	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1531833422453	Marionette	DEBUG	Received DOM event "unload" for "about:b1531833423258	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833424776	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+[Child 55068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/buil[Child 52860, CUnable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+1532265570214	Marionette	INFO	Listening on port 56418
+1532265570732	Marionette	WARN	TLS certificate errors will be ig1532265570732	Marionette1532265570780	Marionette	DEBUG	Register listener.js for window 4294967297
+1532265570877	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1532265571831	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1532265571831	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1532265572750	Marionette	DEBUG	Received DOM event "DOMContentLo1532265573931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/m1532265576041	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
 JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
-1531833426007	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833426307	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833426309	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833426363	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
-1531833426383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-15318331531833429605	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833438649	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833439350	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833439351	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
-1531833439497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
-1531833439638	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
+1532265577396	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265577721	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265577722	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265577761	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1532265577812	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265577857	Marionette	DEBUG	Received DOM event "pageshow" fo1532265580333	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265589384	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265591758	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265591759	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
+1532265591977	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1532265592237	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
+1532265593223	Marionette	DEBUG	Received DOM event "pageshow" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
 JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
-1531833440568	Marionette	DEBUG	Received DOM event "pageshow" for "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
-1531833440867	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1532265593515	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1532265593878	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
@@ -33,34 +37,32 @@ JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtempl
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
-1531833441146	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1531833441551	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1531833441785	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-[Child 25200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 25200, Chrome_ChildThread] WA[Child 25504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 25504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-
+1532265717988	Marionette	DEBUG	Register listener.js for window 4294967317
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1532265719321	Marionette	DEBUG	Register listener.js for window 8589934593
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1532265728924	Marionette	DEBUG	Register listener.js for window 8589934597
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use [Child 30040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30040, Chrome_ChildThread] WARNING:[Parent 57488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 57640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 57640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/b[GPU 58288, Chrome_ChildTh
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-noring timer registration for id: telemetry_modules_ping
-[GPU 14868, Chro
+ttps://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+[Parent 54516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 54516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[Chil/buildd 58856,/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc Chrome_ChildThread], line 346
+ WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 58856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56080, Chrome_ChildThread] WARNING: pipe err[GPU 57084, Chrome_ChildThread]
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-omium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 18372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ip[GPU 26944, Chrome_ChildThread] WAR
+
+[GPU 43672, Chrome_ChildThrea
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-t-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
-JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
+s, line 37: ReferenceError: event is not defined
 JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
 JavaScript error: https://dn-coding-net-production-static.qbox.me/codemart-contact-us-v1.0.0.js, line 37: ReferenceError: event is not defined
 [Child 62932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
