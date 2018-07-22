@@ -7,10 +7,10 @@ delay_wait = 10
 # 登陆URL
 login_path = "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.tmall.com%2F"
 # 抢购商口URL
-orders_path = "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14586069699.100.706d6220m5GMuI&id=566980445680&rn=6c8eab9631a56e1426eb6400dbe8dd2c&abbucket=4"
+orders_path = "https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-16722952378.94.6bd94b73XoTDDY&id=555755829600&rn=e4bd55d8b427feff558e215cfe8f32ab&abbucket=20&sku_properties=1627207:1072685232"
 #尺码,随机选择一个
-chi_ma= ["42/XL","38/M"]
+chi_ma= ["36码","36.5码","37.5码","38码","38.5码"]
 #颜色，随机选择一个
-yan_se=["深蓝","粉色"]
+yan_se=["003中灰/白/枪灰色"]
 
 
